@@ -4,9 +4,25 @@ import { useEffect, useState } from 'react';
 const CustomCursor = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [isPointer, setIsPointer] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
 
   useEffect(() => {
     const onMouseMove = (e) => {
+      // Get viewport dimensions
+      const viewportWidth = window.innerWidth;
+      const viewportHeight = window.innerHeight;
+
+      // Set buffer zone (adjust this value as needed)
+      const buffer = 1;
+
+      // Check if cursor is near edges
+      const isNearEdge =
+        e.clientX <= buffer ||
+        e.clientX >= viewportWidth - buffer ||
+        e.clientY <= buffer ||
+        e.clientY >= viewportHeight - buffer;
+
+      setIsVisible(!isNearEdge);
       setPosition({ x: e.clientX, y: e.clientY });
 
       const target = e.target;
@@ -30,6 +46,8 @@ const CustomCursor = () => {
       style={{
         left: `${position.x}px`,
         top: `${position.y}px`,
+        opacity: isVisible ? 1 : 0,
+        transition: 'opacity 0.2s ease-out',
       }}
     >
       <img

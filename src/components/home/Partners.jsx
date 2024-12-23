@@ -1,5 +1,4 @@
 'use client';
-import { useEffect, useState } from 'react';
 
 const Partners = () => {
   const partners = [
@@ -41,7 +40,7 @@ const Partners = () => {
     <section className="bg-[#0F0F1A] py-16 overflow-hidden">
       <div className="relative py-6 border-y border-[#444655] shadow-[inset_0_0_20px_rgba(0,0,0,0.5)]">
         <div
-          className="absolute left-0 top-0 w-32 h-full z-10"
+          className="absolute left-0 top-0 w-[10%] h-full z-10"
           style={{
             background:
               'linear-gradient(90deg, #10111A 17.32%, rgba(16, 17, 26, 0) 100%)',
@@ -49,7 +48,7 @@ const Partners = () => {
         />
 
         <div
-          className="absolute right-0 top-0 w-32 h-full z-10"
+          className="absolute right-0 top-0 w-[10%] h-full z-10"
           style={{
             background:
               'linear-gradient(-90deg, #10111A 17.32%, rgba(16, 17, 26, 0) 100%)',
