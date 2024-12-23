@@ -37,7 +37,7 @@ const CustomCursor = () => {
           width: '15px',
           height: '15px',
         }}
-        src="/images/cursor.svg"
+        src="/assets/images/common/cursor.svg"
         alt=""
         className="w-8 h-8"
       />

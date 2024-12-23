@@ -1,10 +1,10 @@
-import Navbar from '@/components/Navbar';
-import OpenTo from '@/components/OpenTo';
-import Partners from '@/components/Partners';
-import RecentWork from '@/components/RecentWork';
-import Testimonials from '@/components/Testimonials';
-import Footer from '@/components/Footer';
-import HowIWork from '@/components/HowIWork';
+import Navbar from '@/components/home/Navbar';
+import OpenTo from '@/components/home/OpenTo';
+import Partners from '@/components/home/Partners';
+import RecentWork from '@/components/home/RecentWork';
+import Testimonials from '@/components/home/Testimonials';
+import Footer from '@/components/home/Footer';
+import HowIWork from '@/components/home/HowIWork';
 
 export default function Home() {
   return (
