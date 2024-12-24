@@ -37,14 +37,14 @@ export default function Banner() {
             </div>
           </div>
           <div className="relative">
-            <div className="w-[400px]">
+            <div className="w-[420px]">
               <img
                 src="/assets/images/banner/profile.png"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="absolute bottom-0 left-0 ">
+            <div className="absolute bottom-[20px] left-[-50px] ">
               <img src="/assets/images/banner/floating-indicator.png" />
             </div>
           </div>
