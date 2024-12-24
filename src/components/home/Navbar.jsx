@@ -83,7 +83,7 @@ const Navbar = () => {
 
           {/* Get in Touch Button */}
           <div>
-            <button className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors">
+            <button className="bg-[#5955F4] text-white px-5 py-3 font-[font-sb] rounded-[30px] hover:bg-gradient-to-r from-[#ED0C93] to-[#C80CED] ">
               Get in Touch
             </button>
           </div>
