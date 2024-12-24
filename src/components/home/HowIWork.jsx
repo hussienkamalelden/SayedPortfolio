@@ -22,10 +22,13 @@ const HowIWork = () => {
   ];
 
   return (
-    <section className="bg-[#0F0F1A] py-16 px-4">
+    <section className="bg-[#0F0F1A] py-6 px-4">
       <div className="container mx-auto">
-        <h2 className="text-[#E94DCA] text-xl mb-12 font-cabinet-grotesk">
-          _The way I work 🔥
+        <h2 className="mb-6">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ED0C93] to-[#C80CED] text-xl font-[font-b]">
+            __The way I work
+          </span>
+          <span> 🔥</span>
         </h2>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">

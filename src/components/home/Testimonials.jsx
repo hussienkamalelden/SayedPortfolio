@@ -76,10 +76,14 @@ const Testimonials = () => {
   ];
 
   return (
-    <section className="bg-[#0F0F1A] py-16 px-4">
+    <section className="bg-[#0F0F1A] py-6 px-4">
       <div className="container mx-auto">
-        <h2 className="text-[#E94DCA] text-xl mb-12">
-          _People I work with says 😊
+        <h2 className="mb-6">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ED0C93] to-[#C80CED] text-xl font-[font-b]">
+            {' '}
+            __People I work with says{' '}
+          </span>
+          <span>😍</span>
         </h2>
 
         <div className="columns-1 md:columns-2 lg:columns-3 gap-6 [&>*:not(:first-child)]:mt-6">
