@@ -4,7 +4,7 @@ const RecentWorkCard = ({ project }) => {
       className="group p-4 rounded-[16px] border-[1px] border-[#50505080] 
         bg-[linear-gradient(244.57deg,rgba(255,255,255,0.05)_0%,rgba(255,255,255,0)_100%)]
         hover:bg-[linear-gradient(244.57deg,rgba(85,3,208,0.45)_0%,rgba(85,3,208,0)_100%)]
-        transition-all duration-300`"
+        transition-all duration-300"
     >
       <div className=" rounded-lg overflow-hidden">
         {/* Image Container */}

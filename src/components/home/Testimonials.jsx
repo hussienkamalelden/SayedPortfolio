@@ -8,72 +8,57 @@ const Testimonials = () => {
       author: {
         name: 'Ahmed Farouk',
         role: 'Product @Contactcars.com',
-        image: '/images/ahmed-farouk.jpg',
+        image: 'assets/images/testimonials/user.png',
       },
-      text: 'I had the opportunity to work with Sayed, a talented Product UI/UX designer, and I was consistently impressed by his creativity, attention to detail, and user-centric approach. Over the time we worked together, Sayed demonstrated an exceptional ability to understand complex product requirements and translate them into intuitive, beautiful designs.',
-      highlightedText:
-        'His collaborative spirit, combined with his technical skills, made him an integral part of our team.',
-      height: 'medium', // Controls card height variation
+      text: 'I had the opportunity to work with Sayed, a talented Product UI/UX designer, and I was <span style="color: #0CEDA6;">consistently impressed</span> by his creativity, attention to detail, and <span style="color: #F68511;">user-centric approach</span>. Over the time we worked together, Sayed demonstrated an exceptional ability to <span style="color: #0CEDA6;">understand complex product requirements</span> and translate them into intuitive, beautiful designs. His <span style="color: #F68511;">collaborative spirit</span>, combined with his technical skills, made him an integral part of our team. He was <span style="color: #0CEDA6;">always open to feedback</span>, and his designs not only enhanced user experience but also aligned perfectly with our business objectives. If you’re looking for a designer who brings both creativity and practicality to the table, I highly recommend Sayed. He’s a true asset to any product team.',
     },
     {
       author: {
         name: 'Sarah Chen',
         role: 'Lead Designer @TechCorp',
-        image: '/images/sarah-chen.jpg',
+        image: 'assets/images/testimonials/user.png',
       },
-      text: 'Working with this team has been an absolute pleasure. Their attention to detail and innovative solutions consistently exceeded our expectations.',
-      height: 'short',
+      text: 'I had the opportunity to work with Sayed, a talented Product UI/UX designer, and I was <span style="color: #0CEDA6;">consistently impressed</span> by his creativity, attention to detail, and <span style="color: #F68511;">user-centric approach</span>. Over the time we worked together, Sayed demonstrated an exceptional ability to <span style="color: #0CEDA6;">understand complex product requirements</span> and translate them into intuitive, beautiful designs.',
     },
     {
       author: {
         name: 'Michael Rodriguez',
         role: 'CTO @StartupInc',
-        image: '/images/michael-rodriguez.jpg',
+        image: 'assets/images/testimonials/user.png',
       },
-      text: "The level of professionalism and creativity brought to our project was outstanding. They didn't just meet our requirements, they transformed our vision into something even better than we imagined.",
-      highlightedText:
-        'Their ability to think outside the box while maintaining user-centric design principles is remarkable.',
-      height: 'long',
+      text: 'I had the opportunity to work with Sayed, a talented Product UI/UX designer, and I was <span style="color: #0CEDA6;">consistently impressed</span> by his creativity, attention to detail, and <span style="color: #F68511;">user-centric approach</span>. Over the time we worked together, Sayed demonstrated an exceptional ability to <span style="color: #0CEDA6;">understand complex product requirements</span> and translate them into intuitive, beautiful designs. His <span style="color: #F68511;">collaborative spirit</span>, combined with his technical skills, made him an integral part of our team.',
     },
     {
       author: {
         name: 'Emma Thompson',
         role: 'Product Manager @InnovateLab',
-        image: '/images/emma-thompson.jpg',
+        image: 'assets/images/testimonials/user.png',
       },
-      text: 'Exceptional work on our UX overhaul. The attention to user feedback and iterative improvements made all the difference.',
-      height: 'short',
+      text: 'I had the opportunity to work with Sayed, a talented Product UI/UX designer, and I was <span style="color: #0CEDA6;">consistently impressed</span> by his creativity, attention to detail, and <span style="color: #F68511;">user-centric approach</span>. Over the time we worked together, Sayed demonstrated an exceptional ability to <span style="color: #0CEDA6;">understand complex product requirements</span> and translate them into intuitive, beautiful designs. His <span style="color: #F68511;">collaborative spirit</span>, combined with his technical skills, made him an integral part of our team. He was <span style="color: #0CEDA6;">always open to feedback</span>, and his designs not only enhanced user experience but also aligned perfectly with our business objectives. If you’re looking for a designer who brings both creativity and practicality to the table, I highly recommend Sayed. He’s a true asset to any product team.',
     },
     {
       author: {
         name: 'David Kim',
         role: 'CEO @DesignStudio',
-        image: '/images/david-kim.jpg',
+        image: 'assets/images/testimonials/user.png',
       },
-      text: 'Their collaborative approach and technical expertise made complex challenges seem simple. A truly valuable addition to any project.',
-      highlightedText:
-        'The ability to balance aesthetics with functionality is remarkable.',
-      height: 'medium',
+      text: 'I had the opportunity to work with Sayed, a talented Product UI/UX designer, and I was <span style="color: #0CEDA6;">consistently impressed</span> by his creativity, attention to detail, and <span style="color: #F68511;">user-centric approach</span>. Over the time we worked together, Sayed demonstrated an exceptional ability to <span style="color: #0CEDA6;">understand complex product requirements</span> and translate them into intuitive, beautiful designs. His <span style="color: #F68511;">collaborative spirit</span>, combined with his technical skills, made him an integral part of our team. He was <span style="color: #0CEDA6;">always open to feedback</span>, and his designs not only enhanced user experience but also aligned perfectly with our business objectives.',
     },
     {
       author: {
         name: 'Lisa Wang',
         role: 'UX Director @GlobalTech',
-        image: '/images/lisa-wang.jpg',
+        image: 'assets/images/testimonials/user.png',
       },
-      text: "Innovative solutions, timely delivery, and exceptional communication throughout the project. Couldn't ask for a better partnership.",
-      height: 'short',
+      text: 'I had the opportunity to work with Sayed, a talented Product UI/UX designer, and I was <span style="color: #0CEDA6;">consistently impressed</span> by his creativity, attention to detail, and <span style="color: #F68511;">user-centric approach</span>.',
     },
     {
       author: {
         name: 'James Mitchell',
         role: 'Founder @CreativeLabs',
-        image: '/images/james-mitchell.jpg',
+        image: 'assets/images/testimonials/user.png',
       },
-      text: "The depth of understanding in both design principles and user psychology sets them apart. Their work has significantly improved our product's user engagement.",
-      highlightedText:
-        'A rare combination of creative talent and technical expertise.',
-      height: 'long',
+      text: 'I had the opportunity to work with Sayed, a talented Product UI/UX designer, and I was <span style="color: #0CEDA6;">consistently impressed</span> by his creativity, attention to detail, and <span style="color: #F68511;">user-centric approach</span>. Over the time we worked together, Sayed demonstrated an exceptional ability to <span style="color: #0CEDA6;">understand complex product requirements</span> and translate them into intuitive, beautiful designs. ',
     },
   ];
 
