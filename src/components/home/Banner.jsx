@@ -1,7 +1,13 @@
 export default function Banner() {
   return (
-    <section className="relative bg-[#10111a] text-white pt-24 pb-20 px-4">
-      <div className="container mx-auto">
+    <section className="relative bg-[#10111a] text-white pt-24 pb-20 px-4 overflow-hidden">
+      {/* Left rotating gradient */}
+      <div className="absolute left-[5%] top-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-gradient-to-r from-[#5955F473] to-[#ED0C93] rounded-full blur-[100px] opacity-50 rotating-gradient"></div>
+
+      {/* Right rotating gradient */}
+      <div className="absolute right-[-30%] top-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-gradient-to-r from-[#5955F473] to-[#ED0C93] rounded-full blur-[100px] opacity-50 rotating-gradient"></div>
+
+      <div className="container mx-auto relative z-10">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="flex-1 space-y-6 max-w-[65%]">
             <h1 className="text-[80px] text-white font-[font-eb] mb-5">
@@ -44,8 +50,11 @@ export default function Banner() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="absolute bottom-[20px] left-[-50px] ">
-              <img src="/assets/images/banner/floating-indicator.png" />
+            <div className="absolute bottom-[20px] left-[-50px] floating-indicator">
+              <img
+                src="/assets/images/banner/floating-indicator.png"
+                alt="Floating indicator"
+              />
             </div>
           </div>
         </div>
