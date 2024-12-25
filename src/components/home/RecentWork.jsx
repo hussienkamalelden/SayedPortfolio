@@ -46,7 +46,7 @@ const RecentWork = () => {
   ];
 
   return (
-    <section className="bg-[#0F0F1A] py-6 px-4">
+    <section className="bg-[#0F0F1A] py-6 ">
       <div className="container mx-auto">
         <h2 className="mb-6">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ED0C93] to-[#C80CED] text-xl font-[font-b]">

@@ -25,7 +25,7 @@ const OpenTo = () => {
   ];
 
   return (
-    <section className="py-6 px-4 bg-[#10111a]">
+    <section className="py-6 bg-[#10111a]">
       <div className="container mx-auto">
         <h2 className="mb-6">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ED0C93] to-[#C80CED] text-xl font-[font-b]">
