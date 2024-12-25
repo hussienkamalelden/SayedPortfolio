@@ -1,4 +1,5 @@
 'use client';
+import RecentWorkCard from '../shared/RecentWorkCard';
 
 const RecentWork = () => {
   const projects = [
@@ -7,13 +8,45 @@ const RecentWork = () => {
       company: 'Smart Bricks',
       description:
         'A smart real estate investing platform powered by AI, Empowering investors with AI real estate investing analytics to make informed decisions. Smart Bricks does AI ROI simulation based on data analytics powered by AI.',
-      image: '/images/smart-bricks.jpg',
+      image: '/assets/images/recent-work/project.jpg',
       associate: {
         name: 'Nada Hazem',
         role: 'Smart Bricks CTO | Product Consultant',
       },
     },
-    // Duplicate the same project 3 more times for the grid
+    {
+      title: 'Simplify Your Real Estate Investing Journey',
+      company: 'Smart Bricks',
+      description:
+        'A smart real estate investing platform powered by AI, Empowering investors with AI real estate investing analytics to make informed decisions. Smart Bricks does AI ROI simulation based on data analytics powered by AI.',
+      image: '/assets/images/recent-work/project.jpg',
+      associate: {
+        name: 'Nada Hazem',
+        role: 'Smart Bricks CTO | Product Consultant',
+      },
+    },
+    {
+      title: 'Simplify Your Real Estate Investing Journey',
+      company: 'Smart Bricks',
+      description:
+        'A smart real estate investing platform powered by AI, Empowering investors with AI real estate investing analytics to make informed decisions. Smart Bricks does AI ROI simulation based on data analytics powered by AI.',
+      image: '/assets/images/recent-work/project.jpg',
+      associate: {
+        name: 'Nada Hazem',
+        role: 'Smart Bricks CTO | Product Consultant',
+      },
+    },
+    {
+      title: 'Simplify Your Real Estate Investing Journey',
+      company: 'Smart Bricks',
+      description:
+        'A smart real estate investing platform powered by AI, Empowering investors with AI real estate investing analytics to make informed decisions. Smart Bricks does AI ROI simulation based on data analytics powered by AI.',
+      image: '/assets/images/recent-work/project.jpg',
+      associate: {
+        name: 'Nada Hazem',
+        role: 'Smart Bricks CTO | Product Consultant',
+      },
+    },
   ];
 
   return (
@@ -28,54 +61,7 @@ const RecentWork = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
-            <div key={index} className="group">
-              {/* Project Card */}
-              <div className="bg-[#1E1B4B] rounded-2xl overflow-hidden transition-transform duration-300 hover:scale-[1.02]">
-                {/* Image Container */}
-                <div className="relative aspect-[16/9] overflow-hidden">
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-
-                {/* Content */}
-                <div className="p-6">
-                  {/* Company Name */}
-                  <div className="text-[#E94DCA] text-sm mb-3">
-                    {project.company}
-                  </div>
-
-                  {/* Project Title */}
-                  <h3 className="text-white text-xl font-semibold mb-4">
-                    {project.title}
-                  </h3>
-
-                  {/* Description */}
-                  <p className="text-gray-400 text-sm mb-6">
-                    {project.description}
-                  </p>
-
-                  {/* Associate Info */}
-                  <div className="flex items-center justify-between">
-                    <div className="text-gray-400 text-sm">
-                      <span className="opacity-70">— Associated with </span>
-                      <span className="text-white">
-                        {project.associate.name}
-                      </span>
-                      <div className="text-xs opacity-70">
-                        {project.associate.role}
-                      </div>
-                    </div>
-
-                    <button className="text-white text-sm border border-gray-700 px-4 py-2 rounded-full hover:bg-gray-700 transition-colors">
-                      Read the full story
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <RecentWorkCard key={index} project={project} />
           ))}
         </div>
 
