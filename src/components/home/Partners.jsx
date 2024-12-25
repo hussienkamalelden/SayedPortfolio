@@ -37,8 +37,8 @@ const Partners = () => {
   ];
 
   return (
-    <section className="bg-[#10111a] py-6 overflow-hidden">
-      <div className="relative py-6 border-y border-[#444655] shadow-[inset_0_0_20px_rgba(0,0,0,0.5)]">
+    <section className=" py-6 overflow-hidden  bg-[#10111a]">
+      <div className="bg-[#10111a] relative py-6 border-y border-[#444655] shadow-[inset_0_0_20px_rgba(0,0,0,0.5)]">
         <div
           className="absolute left-0 top-0 w-[10%] h-full z-10"
           style={{
