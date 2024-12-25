@@ -44,13 +44,13 @@ const HowIWork = () => {
               <h3 className="text-[#B9BAC0] mb-4 font-[font-r] font-base ">
                 Tools I use for my daily work ✦
               </h3>
-              <div className=" grid grid-cols-1 lg:grid-cols-2 gap-8">
+              <div className=" grid grid-cols-1 lg:grid-cols-2 gap-4">
                 <p className="text-white text-sm font-[font-r]">
                   The best way to stay on top of my work is by using these four
                   essential tools, either working solo or collaboratively in
                   team.
                 </p>
-                <div className="flex gap-4">
+                <div className="flex gap-2">
                   <div className="group border border-[#646871] rounded-xl h-12 w-12 inline-flex items-center justify-center hover:border-white ">
                     <i class="icon-figma text-[#646871] text-2xl group-hover:text-white"></i>
                   </div>
