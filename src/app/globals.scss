@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'public/assets/styles/scss/main.scss';
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Hide default cursor */
+* {
+  cursor: none !important;
+}
+
+/* Prevent text selection while moving cursor */
+body {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Show default cursor on mobile/touch devices */
+@media (hover: none) and (pointer: coarse) {
+  * {
+    cursor: auto !important;
+  }
+
+  .custom-cursor {
+    display: none !important;
+  }
+}
+
+/* Ensure inputs still show text cursor */
+input,
+textarea {
+  cursor: text !important;
+}
+
+/* Ensure resizable areas show resize cursor */
+[resize] {
+  cursor: resize !important;
+}
+
+/* Prevent cursor from flickering during transitions */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
